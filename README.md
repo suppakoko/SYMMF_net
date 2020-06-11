@@ -11,14 +11,17 @@ SYMMF-net is a network analysis tool for Microbiome
 ## Running Script example
 
 1. Running NMF_analysis.R script
+
   '''
-  cmd$ Rscript NMF_analysis.R -m ERP004264_PD.table
+  $ Rscript NMF_analysis.R -m ERP004264_PD.table
   '''
+  
 2. Copy SYMMF_net_analysis.py into same folder of NMF_analsis.R results
 
 3. Running SYMMF_net_analysis.py script
+  
   '''
-  cmd$ python SYMMF_net_analysis.py -p 0.05
+  $ python SYMMF_net_analysis.py -p 0.05
   '''
 
 ## Development environment of R
@@ -38,6 +41,7 @@ SYMMF-net is a network analysis tool for Microbiome
   argparse
   '''
 ### Output files after executing NMF_analysis.R
+  
   '''
   Clustering_purity_value.txt -- matrix of clustering purity results (m = 2 ~ 25)
   raw_coefmat_[K#].txt -- coef matrix of each [K#]
@@ -54,8 +58,9 @@ SYMMF-net is a network analysis tool for Microbiome
   sample_lable_list_trimmed.txt -- sample list of input data from trimmed matrix
   MMF_microbe_list.txt -- microbe list and each contribution value from basismatrix
   '''
+  
 ## Development environment of Python
-		'''
+  '''
   Python = 3.7.5
   pandas = 0.25.3
   numpy =  1.17.4
@@ -65,7 +70,9 @@ SYMMF-net is a network analysis tool for Microbiome
   matplotlib = 3.1.1
   argparse = 1.1
   '''
+  
 ### Output files after executing SYMMF_net_analysis.py
+  
   '''
   mi_[Sample].data -- all of AUC value of each MMFs
   kk_[Sample].data -- all of AUC value of each microbe
@@ -81,27 +88,35 @@ SYMMF-net is a network analysis tool for Microbiome
   MMF_microbe_list_ordered.txt -- All microbe list of each MMF order by contribution value
   SYMMF_feature_selected_microbe_list.txt -- microbe list from selected SYMMF of SYMMF-net
   '''
+  
 ### matrix of SYMMF
+ 
  '''
  SYMMF_feature_bmap_selected.txt -- W_symmf matrix
  SYMMF_feature_coef_selected.txt -- H_symmf matrix
  SYMMF_feature_selected_microbe_count_mat.txt
  cor_SYMMF_feature_bmap_selected.txt -- calculation result of correlation of each microbe from SYMMF_feature_bmap_selected.txt
  '''
+ 
 ### Output for network generation
+ 
  '''
  whole_network_cor[value]_p[value]_auc[value]_ECDF[value].sif -- cytoscape network file
  whole_network_nodes_size_p[value]_auc[value]_ECDF[value].attrs -- network node info
  whole_network_edges_cor[value]_p[value]_auc[value]_ECDF[value].attrs -- network edges info
  whole_network_node_piechart_count_ratio_cor[value]_p[value]_auc[value]_ECDF[value].table -- network node info of pie-chart count
  whole_network_node_piechart_contribution_ratio_cor[value]_p[value]_auc[value]_ECDF[value].table -- network node info of pie-chart contribution
+ '''
 
 ### R script for sub-analysis
+
   '''
   SYMMF_feature_cor_gen.R -- Rscript for Pearson's correlation calculation
   AUC_comparison_rscript.R -- Rscript for AUC comparison boxplot
   '''
+  
 ### Output Figures
+
   '''
   NMF_microbe_AUC_comparison.tiff -- boxplot for AUC comparison between NMF and microbe
   purification_comparison_plot.png -- Clustering purity comparison plot
