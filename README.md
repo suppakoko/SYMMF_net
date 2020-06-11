@@ -1,7 +1,6 @@
 # SYMMF_net
-########################################
-# Microbiome network analysis with NMF #
-########################################
+Microbiome network analysis with NMF
+
 
 Title
 
