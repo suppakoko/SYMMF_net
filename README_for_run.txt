@@ -8,7 +8,7 @@
 
 	############################
 	## Running Script example ##
-    ############################
+        ############################
 
 		1. Running NMF_analysis.R script
 			cmd$ Rscript NMF_analysis.R -m ERP004264_PD.table
@@ -100,8 +100,10 @@
 	 whole_network_cor[value]_p[value]_auc[value]_ECDF[value].sif -- cytoscape network file
 	 whole_network_nodes_size_p[value]_auc[value]_ECDF[value].attrs -- network node info
 	 whole_network_edges_cor[value]_p[value]_auc[value]_ECDF[value].attrs -- network edges info
-	 whole_network_node_piechart_count_ratio_cor[value]_p[value]_auc[value]_ECDF[value].table -- network node info of pie-chart count
-	 whole_network_node_piechart_contribution_ratio_cor[value]_p[value]_auc[value]_ECDF[value].table -- network node info of pie-chart contribution
+	 whole_network_node_piechart_count_ratio_cor[value]_p[value]_auc[value]_ECDF[value].table 
+	      -- network node info of pie-chart count
+	 whole_network_node_piechart_contribution_ratio_cor[value]_p[value]_auc[value]_ECDF[value].table 
+	      -- network node info of pie-chart contribution
 
 	===============================
 	== R script for sub-analysis ==
