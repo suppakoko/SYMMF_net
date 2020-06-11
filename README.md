@@ -113,7 +113,7 @@ SYMMF-net is a network analysis tool for Microbiome
   ```
   SYMMF_feature_cor_gen.R -- Rscript for Pearson's correlation calculation
   AUC_comparison_rscript.R -- Rscript for AUC comparison boxplot
-  '''
+  ```
   
 ### Output Figures
 
