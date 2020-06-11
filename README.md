@@ -1,4 +1,4 @@
-# SYMMF-net - Synergistic Meta-microbe feature
+# SYMMF-net - SYnergistic Meta-Microbe Feature Network
 SYMMF-net is a network analysis tool for Microbiome 
 
 
