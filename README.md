@@ -16,7 +16,7 @@ SYMMF-net is a network analysis tool for Microbiome
   $ Rscript NMF_analysis.R -m ERP004264_PD.table
   ```
   
-2. Copy SYMMF_net_analysis.py into same folder of NMF_analsis.R results
+2. Copy SYMMF_net_analysis.py to same folder as NMF_analsis.R result
 
 3. Running SYMMF_net_analysis.py script
   
