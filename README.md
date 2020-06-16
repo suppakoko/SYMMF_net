@@ -128,3 +128,10 @@ SYMMF-net is a network analysis tool for Microbiome
   SYMMFs_coefmap_save_ECDF[value].png -- heatmap of coefmap selected SYMMFs
   SYMMFs_basismap_reord_save_ECDF[value].png -- heatmap of basismap selected SYMMFs
   ```
+  
+## Contributor
+
+  ```
+  Keunwan Park (keunwan@kist.re.kr)
+  Young-Joon Ko (yjko@kist.re.kr)
+  ```
