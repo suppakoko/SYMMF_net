@@ -135,3 +135,7 @@ SYMMF-net is a network analysis tool for Microbiome
   Keunwan Park (keunwan@kist.re.kr)
   Young-Joon Ko (yjko@kist.re.kr)
   ```
+# Docker image
+  ```
+  docker pull suppak/r340_symmf
+  ```
