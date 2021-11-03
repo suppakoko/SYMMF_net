@@ -29,6 +29,7 @@ SYMMF-net is a network analysis tool for Microbiome
   R ver. = 3.4.0
   required R packages
   Bioconductor biobase
+  preprocessCore in Bioconductor
   pheatmap
   RColorBrewer
   gplots
