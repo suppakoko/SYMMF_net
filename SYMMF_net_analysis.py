@@ -1235,7 +1235,8 @@ g2 = sns.jointplot(x='AUC of MMF',
                     kind='hex',
                     data=data_for_plot,
                    marginal_kws=dict(bins=30, rug=True),
-                   annot_kws=dict(stat='r'))
+                  # annot_kws=dict(stat='r')
+		  )
 
 g2.ax_joint.set_xlim(min_x, max_x)
 g2.ax_joint.set_ylim(min_y, max_y)
