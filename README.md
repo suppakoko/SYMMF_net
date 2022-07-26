@@ -52,8 +52,8 @@ SYMMF-net is a network analysis tool for Microbiome
   disease_k_connect_by_[K#].tiff -- heatmap image of each group_coefmat_[K#].txt
   basismatrix.pdf -- heatmap image of all basismap (m = 2 ~ 25)
   coefmatrix.pdf -- heatmap image of all coefmap (m = 2 ~ 25)
-  micro_count_mat.txt -- input data matrix afeter normalization and filtering
-  micro_count_mat_pre.txt -- input data matrix before normalization and filtering
+  micro_count_mat.txt -- input data matrix afeter and filtering
+  micro_count_mat_pre.txt -- input data matrix before filtering
   microbe_list_original.txt -- microbe list of input data from original matrix
   microbe_list_trimmed.txt -- microbe list of input data from trimmed matrix
   sample_lable_list_trimmed.txt -- sample list of input data from trimmed matrix
